@@ -1,5 +1,5 @@
 -- Display digits from 0 to 9 on 7-segment displays
--- HEX3 : SW15-12				 	HEX2 : SW11-8
+-- HEX3 : SW15-12				HEX2 : SW11-8
 -- HEX1 : SW7-4					HEX0 : SW3-0
 -- 1010 to 1111 : dont care
 
