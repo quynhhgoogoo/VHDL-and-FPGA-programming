@@ -12,7 +12,7 @@ ENTITY part6 IS
 			HEX3, HEX2, HEX1, HEX0 : OUT STD_LOGIC_VECTOR(0 TO 6));	--7 segments displayed on screen
 END part6;
 
---	Table 1:
+-- Table 1:
 --   			0		1		2		3		4		5		6		7		8		9 
 -- H0			0		1		0		0		1		0		0		1		0		0
 -- H1			0		0		0		0		0		1		1		1		0		0
