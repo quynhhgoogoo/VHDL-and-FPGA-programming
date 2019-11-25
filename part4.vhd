@@ -23,14 +23,6 @@ BEGIN
 	--E	0		0		0		0		1		1		0
 	--L	1		0		0		0		1		1		1
 	--O	1		0		0		0		0		0		0
-	
---	HEX0(0) <= NOT((C(2) AND C(1) AND NOT (C(0))) OR (C(2) AND NOT (C(1)) AND NOT(C(0))));
---	HEX0(1) <= NOT((C(2) AND C(1) AND C(0)) OR (C(2) AND NOT (C(1)) AND NOT (C(0))));
---	HEX0(2) <= NOT((C(2) AND C(1) AND C(0)) OR (C(2) AND NOT (C(1)) AND NOT (C(0))));
---	HEX0(3) <= NOT((C(2) AND C(1) AND NOT (C(0))) OR (C(2) AND NOT (C(1)) AND C(0)) OR (C(2) AND NOT (C(1)) AND NOT (C(0))));
---	HEX0(4) <= NOT(C(2));
---	HEX0(5) <= NOT(C(2));
---	HEX0(6) <= NOT((C(2) AND C(1) AND C(0)) OR (C(2) AND C(1) AND NOT (C(0))));
 
 	HEX0(0) <= NOT((NOT(C(2)) AND NOT(C(1)) AND C(0)) OR (NOT(C(2)) AND C(1) AND C(0)));
 	HEX0(1) <= NOT((NOT(C(2)) AND NOT(C(1)) AND NOT(C(0))) OR (NOT(C(2)) AND C(1) AND C(0)));
